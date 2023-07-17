@@ -8,7 +8,7 @@ Terraform module to deploy Traefik
 module "traefik" {
   source           = "easy-modules/traefik"
   chart_name       = "traefik"
-  description      = "Traefik is a modern HTTP reverse proxy and load balancer for microservices. "
+  description      = "Traefik is a modern HTTP reverse proxy and load balancer for microservices."
   chart_version    = "23.1.0"
   repository       = "https://traefik.github.io/charts"
   namespace        = "traefik-system"
